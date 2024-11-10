@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="style/style.css" />
+
+		<link
+			rel="icon"
+			href="./image/logo.svg"
+			type="image/svg+xml" />
+
+		<title>Blueshark Technologies</title>
+	</head>
+	<body>
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+		</style>
+		<header>
+			<nav class="relative container mx-auto p-4 md:py-6">
+				<!-- Flex -->
+
+				<div class="flex items-center justify-between">
+					<!-- image -->
+					<div
+						class="-pt-10 flex items-center font-semibold text-[#0048FF] text-md">
+						<img
+							class="max-h-20 h-10"
+							src="image/logo.svg"
+							alt="" />
+
+						<h3>BLUESHARKS TECHNOLOGY</h3>
+					</div>
+					<div class="hidden md:flex space-x-6">
+						<a
+							href="#overview"
+							class="hover:text-gray-500"
+							>Our Overview
+						</a>
+						<a
+							href="#roadmap"
+							class="hover:text-gray-500"
+							>Our Roadmap</a
+						>
+						<a
+							href="#affiliate"
+							class="hover:text-gray-500"
+							>Affiliates</a
+						>
+						<a
+							href="#user"
+							class="hover:text-gray-500"
+							>Our Users</a
+						>
+						<a
+							href="#faq"
+							class="hover:text-gray-500"
+							>FAQ</a
+						>
+						<a
+							href="#contact"
+							class="hover:text-gray-500"
+							>Contact Us</a
+						>
+					</div>
+					<!-- button -->
+					<!-- <a
+						href="#"
+						class="hidden md:block h-10 p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:bg-brightRedLight">
+						Get Started
+					</a> -->
+
+					<!-- Hamburger icon -->
+					<button
+						id="menu-btn"
+						class="block hamburger md:hidden focus:outline-none">
+						<span class="hamburger-top"></span>
+						<span class="hamburger-middle"></span>
+						<span class="hamburger-bottom"></span>
+					</button>
+				</div>
+				<!-- Mobile menu -->
+				<div class="md:hidden">
+					<div
+						id="menu"
+						class="absolute z-10 hidden flex-col pl-4 self-end py-16 mt-10 space-y-5 bg-white sm:w-auto sm:self-center left-6 right-6">
+						<a href="#overview">Our Overview</a>
+						<hr />
+						<a href="#roadmap">Our Roadmap</a>
+						<hr />
+						<a href="#affiliate">Affiliates</a>
+						<hr />
+						<a href="#user">Our Users</a>
+						<hr />
+						<a href="#faq">FAQ</a>
+						<hr />
+						<a href="#contact">Contact Us</a>
+
+						<div class="text-white flex justify-between">
+							<a href="https://t.me/BlueSharkTech_bot">
+								<button
+									class="p-2 bg-[#00023D] flex gap-2 rounded-xl">
+									<img
+										src="./image/Icon/cloudIcon.svg"
+										alt="" />
+									Download App
+								</button>
+							</a>
+							<a href="#">
+								<button
+									class="p-2 bg-[#00023D] flex gap-2 rounded-xl items-center">
+									<img
+										src="./image/Icon/telegramIcon.svg"
+										alt=""
+										class="h-5" />
+									Telegram
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- header above -->
+
+		<section
+			id="overview"
+			class="relative container mx-auto p-4 md:py-6 mt-5 flex-col md:flex md:flex-row items-center justify-between">
+			<div class="md:w-3/5">
+				<h2 class="font-bold text-2xl md:text-4xl mb-8">
+					Leading the digital revolution
+				</h2>
+
+				<p class="text-center md:text-left md:text-lg">
+					At Bluesharkstech - we create products/service that allows
+					you utilize your $BST token such as paying bills, Staking
+					trading and having full control over your token.
+					<a
+						href="about.html"
+						class="text-[#0048FF]"
+						>Learn more</a
+					>
+				</p>
+			</div>
+			<div class="text-white flex justify-evenly mt-5 md:mt-0 md:w-2/5">
+				<a href="#">
+					<button class="p-2 bg-[#00023D] flex gap-2 rounded-xl">
+						<img
+							src="./image/Icon/cloudIcon.svg"
+							alt="" />
+						Download App
+					</button>
+				</a>
+				<a href="https://t.me/BlueSharkTech_bot">
+					<button
+						class="p-2 bg-[#00023D] flex gap-2 rounded-xl items-center">
+						<img
+							src="./image/Icon/telegramIcon.svg"
+							alt=""
+							class="h-5" />
+						Telegram
+					</button>
+				</a>
+			</div>
+		</section>
+
+		<section class="relative container mx-auto p-4 md:py-6 bg-[#00023D]">
+			<div class="relative flex flex-col gap-4 md:flex-row items-center">
+				<div class="flex flex-col items-start gap-4 md:w-3/6 md:pl-8">
+					<p class="text-4xl font-bold text-white">
+						Revolutionizing Crypto Transactions
+					</p>
+
+					<p class="text-white">
+						At Bluesharkstech - we create products/service that
+						allows you utilize your $BST token such as paying bills,
+						Staking trading and having full control over your token.
+					</p>
+				</div>
+
+				<div class="relative md:w-3/6">
+					<div class="relative bg-[#00023D] h-84 w-auto rounded-lg">
+						<img
+							src="./image/aboutPerson.svg"
+							alt="" />
+
+						<div
+							class="flex absolute md:bottom-10 bottom-0 right-0 items-center">
+							<div class="flex relative items-center">
+								<div
+									class="absolute right-10 pr-8 md:pr-8 pl-4 w-auto rounded-lg h-10 bg-gray-300 items-center flex">
+									<p
+										class="text-[#00023D] font-semibold text-sm">
+										Advanced
+									</p>
+
+									<p
+										class="text-[#00023D] font-semibold text-sm ml-1">
+										tools
+									</p>
+								</div>
+								<div
+									class="rounded-full bg-gray-100 h-14 w-14 shadow-sm shadow-gray-700 z-10"></div>
+							</div>
+						</div>
+						<div
+							class="flex absolute bottom-20 md:bottom-40 right-0 items-center">
+							<div class="flex relative items-center">
+								<div
+									class="absolute right-10 pr-8 md:pr-8 pl-4 w-auto rounded-lg h-10 bg-gray-300 items-center flex">
+									<p
+										class="text-[#00023D] font-semibold text-sm">
+										Services
+									</p>
+								</div>
+								<div
+									class="rounded-full bg-gray-100 h-14 w-14 shadow-sm shadow-gray-700 z-10"></div>
+							</div>
+						</div>
+						<div
+							class="flex absolute bottom-12 md:bottom-24 left-0 items-center">
+							<div class="flex relative items-center">
+								<div
+									class="rounded-full bg-gray-100 h-14 w-14 shadow-sm shadow-gray-700 z-10"></div>
+								<div
+									class="absolute left-10 pl-8 md:pl-8 pr-4 w-auto rounded-lg h-10 bg-gray-300 items-center flex">
+									<p
+										class="text-[#00023D] font-semibold text-sm">
+										Swift
+									</p>
+
+									<p
+										class="text-[#00023D] font-semibold text-sm ml-1">
+										transactions
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="affiliate"
+			class="relative container mx-auto p-4 md:py-6">
+			<p class="font-bold text-2xl mb-8">Affiliate packages</p>
+			<div class="flex justify-center items-center">
+				<div
+					class="w-full grid grid-cols-1 gap-10 lg:grid-cols-3 text-center lg:py-2 lg:px-12 sm:px-0">
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-5 py-3">
+								$5.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Basic</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Basic</span> package
+						</p>
+
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $0.75 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+						</div>
+
+						<a href="./packages/basic.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-5 py-3">
+								$10.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Bronze</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Bronze</span> package
+						</p>
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $1.5 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+						</div>
+
+						<a href="./packages/bronze.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-5 py-3">
+								$20.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Silver</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Silver</span> package
+						</p>
+
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $3 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+						</div>
+
+						<a href="./packages/silver.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-5 py-3">
+								$30.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Gold</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Gold</span> package
+						</p>
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $4.5 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+							<p>- Discounts in transaction fees</p>
+						</div>
+
+						<a href="./packages/gold.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-2 py-3">
+								$40.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Diamond</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Diamond</span> package
+						</p>
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $6 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+							<p>- Discounts in transaction fees</p>
+						</div>
+
+						<a href="./packages/diamond.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-2 py-3">
+								$50.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Platinum</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Platinum</span> package
+						</p>
+
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $7.5 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+							<p>- Discounts in transaction fees</p>
+						</div>
+
+						<a href="./packages/platinum.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+					<div
+						class="relative shadow-lg shadow-gray-500 p-4 rounded-xl">
+						<div
+							class="bg-[#0048FF] absolute -top-3 right-0 rounded-tl-lg">
+							<p class="text-white font-bold text-2xl px-2 py-3">
+								$100.00
+							</p>
+						</div>
+						<div class="flex items-center">
+							<img
+								src="./image/Icon/verifiyIcon.svg"
+								alt="" />
+							<p class="font-semibold text-xl">Executive</p>
+						</div>
+
+						<p class="font-semibold text-sm text-left">
+							Become an affiliate marketer with our
+							<span class="text-[#0048FF]">Executive</span>
+							package
+						</p>
+
+						<div class="text-xs text-left mt-5 mb-5">
+							<p>You get $15 bonus.</p>
+							<p>You earn up to 7th generation deep</p>
+							<p>- You become a data Vendor</p>
+							<p>- You become a Tutor/ Trainer</p>
+							<p>- You become an Author</p>
+							<p>- Discounts in transaction fees</p>
+						</div>
+
+						<a href="./packages/executive.html">
+							<button
+								class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+								Learn More
+
+								<img
+									src="./image/Icon/arrowIcon.svg"
+									alt="" />
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="roadmap"
+			class="relative container mx-auto p-4 md:py-6">
+			<h1 class="font-bold text-3xl">OUR ROADMAP</h1>
+
+			<div class="mt-10 shadow-lg shadow-gray-500">
+				<div>
+					<div
+						class="flex items-center justify-between p-3 cursor-pointer"
+						onclick="toggleAccordion(1)">
+						<p>1st Quarter</p>
+						<img
+							src="./image/Icon/up.svg"
+							alt=""
+							class="w-6"
+							id="icon-1" />
+					</div>
+
+					<div
+						id="content-1"
+						class="mx-10 hidden">
+						<ul style="list-style-type: disc">
+							<li>Telecommunication Services</li>
+							<li class="mt-3">E-Learning</li>
+						</ul>
+					</div>
+				</div>
+
+				<hr />
+
+				<div>
+					<div
+						class="flex items-center justify-between p-3 cursor-pointer"
+						onclick="toggleAccordion(2)">
+						<p>2nd Quarter</p>
+						<img
+							src="./image/Icon/up.svg"
+							alt=""
+							class="w-6"
+							id="icon-2" />
+					</div>
+
+					<div
+						id="content-2"
+						class="mx-10 hidden">
+						<ul style="list-style-type: disc">
+							<li>E-booking service</li>
+							<li class="mt-3">Staking</li>
+						</ul>
+					</div>
+				</div>
+
+				<hr />
+
+				<div>
+					<div
+						class="flex items-center justify-between p-3 cursor-pointer"
+						onclick="toggleAccordion(3)">
+						<p>3rd Quarter</p>
+						<img
+							src="./image/Icon/up.svg"
+							alt=""
+							class="w-6"
+							id="icon-2" />
+					</div>
+
+					<div
+						id="content-3"
+						class="mx-10 hidden">
+						<ul style="list-style-type: disc">
+							<li>Crypto-to-fiat Exchange</li>
+							<li class="mt-3">Peer to Peer</li>
+						</ul>
+					</div>
+				</div>
+
+				<hr />
+				<div>
+					<div
+						class="flex items-center justify-between p-3 cursor-pointer"
+						onclick="toggleAccordion(4)">
+						<p>4th Quarter</p>
+						<img
+							src="./image/Icon/up.svg"
+							alt=""
+							class="w-6"
+							id="icon-2" />
+					</div>
+
+					<div
+						id="content-4"
+						class="mx-10 hidden">
+						<ul style="list-style-type: disc">
+							<li>BST DEX</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="user"
+			class="relative container mx-auto p-4 md:py-6 bg-gradient-to-r from-gray-200 via-white to-gray-300 rounded-lg">
+			<div class="relative flex flex-col gap-4 md:flex-row items-center">
+				<div class="flex flex-col items-start gap-4 md:w-3/6 md:pl-8">
+					<p class="text-4xl">Our Users</p>
+
+					<div class="flex gap-4 mt-10">
+						<button
+							class="rounded-full bg-[#0048FF] w-10 h-10 text-white">
+							1
+						</button>
+
+						<div>
+							<p class="font-bold">Customers</p>
+							<p>End users of our products/ services</p>
+						</div>
+					</div>
+
+					<div class="flex gap-4 mt-10">
+						<button
+							class="rounded-full bg-[#0048FF] w-10 h-10 text-white">
+							2
+						</button>
+
+						<div>
+							<p class="font-bold">Merchants</p>
+							<p>Serves as a channel between customers and us</p>
+						</div>
+					</div>
+
+					<div class="flex gap-4 mt-10">
+						<button
+							class="rounded-full bg-[#0048FF] w-10 h-10 text-white">
+							3
+						</button>
+
+						<div>
+							<p class="font-bold">Affiliates</p>
+							<p>Brings people into our system and get rewards</p>
+						</div>
+					</div>
+
+					<div class="flex gap-4 mt-10">
+						<button
+							class="rounded-full bg-[#0048FF] w-10 h-10 text-white">
+							4
+						</button>
+
+						<div>
+							<p class="font-bold">Tutors/ Authors</p>
+							<p>Sells their products through us</p>
+						</div>
+					</div>
+
+					<div class="text-white flex gap-4">
+						<a href="#">
+							<button
+								class="p-2 bg-[#00023D] flex gap-2 rounded-xl">
+								<img
+									src="./image/Icon/cloudIcon.svg"
+									alt="" />
+								Download App
+							</button>
+						</a>
+						<a href="https://t.me/BlueSharkTech_bot">
+							<button
+								class="p-2 bg-[#00023D] flex gap-2 rounded-xl items-center">
+								<img
+									src="./image/Icon/telegramIcon.svg"
+									alt=""
+									class="h-5" />
+								Telegram
+							</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="relative w-3/6">
+					<img
+						src="./image/cloud.svg"
+						alt=""
+						class="w-96" />
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="faq"
+			class="relative container mx-auto p-4">
+			<h1 class="font-bold text-xl">Frequently Asked Questions</h1>
+
+			<div class="relative mt-8 flex flex-col gap-7">
+				<a
+					href="/faq/our-product.html"
+					class="flex items-center justify-between">
+					<div class="flex gap-3">
+						<p class="text-xl">1</p>
+						<p class="text-xl">
+							What products/ Services does Bluesharkstech provides
+						</p>
+					</div>
+
+					<img
+						src="./image/Icon/plus.svg"
+						alt=""
+						class="w-3" />
+				</a>
+				<a
+					href="/faq/how-to.html"
+					class="flex items-center justify-between">
+					<div class="flex gap-3">
+						<p class="text-xl">2</p>
+						<p class="text-xl">
+							How to use Bluesharkstech products/ services
+						</p>
+					</div>
+
+					<img
+						src="./image/Icon/plus.svg"
+						alt=""
+						class="w-3" />
+				</a>
+				<a
+					href="/faq/how-to-fund-wallet.html"
+					class="flex items-center justify-between">
+					<div class="flex gap-3">
+						<p class="text-xl">3</p>
+						<p class="text-xl">
+							How to fund my wallet on Bluesharkstech app
+						</p>
+					</div>
+
+					<img
+						src="./image/Icon/plus.svg"
+						alt=""
+						class="w-3" />
+				</a>
+				<a
+					href="/faq/how-to-earn.html"
+					class="flex items-center justify-between">
+					<div class="flex gap-3">
+						<p class="text-xl">4</p>
+						<p class="text-xl">
+							How to earn more on Bluesharkstech
+						</p>
+					</div>
+
+					<img
+						src="./image/Icon/plus.svg"
+						alt=""
+						class="w-3" />
+				</a>
+			</div>
+		</section>
+
+		<section
+			id="contact"
+			class="relative container mx-auto p-4 md:py-6 bg-gradient-to-r from-gray-200 via-white to-gray-300 rounded-lg">
+			<div class="relative flex flex-col gap-4 md:flex-row items-center">
+				<div class="relative w-3/6">
+					<img
+						src="./image/support.svg"
+						alt=""
+						w-40 />
+
+					<img
+						src="./image/support2.svg"
+						class="absolute top-0 -right-4"
+						alt="" />
+				</div>
+
+				<div class="flex flex-col md:items-end gap-4">
+					<p class="text-4xl">Connect with us</p>
+
+					<div>
+						<p class="md:text-right">
+							We are 24hrs open to help you with any questions, or
+							inquires you have. chat with our customer service if
+							need an assitance.
+						</p>
+					</div>
+
+					<div>
+						<!-- <p>
+							<span class="font-bold">Call:</span> +234 xxxxx
+							xxxxx
+						</p> -->
+						<p>
+							<span class="font-bold">Email:</span>
+							support@bluesharkstech.com
+						</p>
+					</div>
+
+					<a href="mailto:support@bluesharkstech.com">
+						<button
+							class="p-2 bg-[#0048FF] text-white flex items-center gap-2 rounded-xl">
+							Contact
+						</button>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="mt-10 bg-[#00023D]">
+			<div class="p-3 flex flex-col gap-4 md:flex-row md:gap-16 md:ml-10">
+				<a
+					href="#overview"
+					class="text-white"
+					>Our Overview</a
+				>
+				<a
+					href="#roadmap"
+					class="text-white"
+					>Our Roadmap</a
+				>
+				<a
+					href="#affiliate"
+					class="text-white"
+					>Affiliates</a
+				>
+				<a
+					href="#user"
+					class="text-white"
+					>Our Users</a
+				>
+				<a
+					href="#user"
+					class="text-white"
+					>FAQ</a
+				>
+				<a
+					href="#contact"
+					class="text-white"
+					>Contact Us</a
+				>
+			</div>
+			<div
+				class="flex text-white items-center relative container mx-auto p-4">
+				<img
+					src="./image/logo.svg"
+					alt="" />
+
+				<p>BLUESHARK TECHNOLOGIES</p>
+			</div>
+			<div
+				class="text-white flex flex-row pl-2 relative container mx-auto p-4">
+				<div class="text-xs w-4/6">
+					<!-- <p>Need some help? Contact us now +234 703 xxx xxxx</p> -->
+					<p>
+						<span class="font-bold">Email: </span
+						>support@bluesharkstech.com
+					</p>
+				</div>
+
+				<div class="text-xs flex flex-col gap-3 md:flex-row">
+					<p class="md:font-bold">Our community</p>
+
+					<div class="flex gap-3 mb-5 md:mb-16">
+						<a href="https://t.me/bluesharktech">
+							<img
+								src="./image/Icon/telegramIcon.svg"
+								alt=""
+								class="w-4"
+						/></a>
+						<a
+							href="https://web.facebook.com/profile.php?id=61561163555100">
+							<img
+								src="./image/Icon/facebook.svg"
+								alt="https://web.facebook.com/profile.php?id=61561163555100"
+								class="w-4" />
+						</a>
+						<a href="https://x.com/blueshark_token">
+							<img
+								src="./image/Icon/x.svg"
+								alt=""
+								class="w-4" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			// Function to toggle accordion and ensure only one section is open at a time
+			function toggleAccordion(id) {
+				// Get the content and icon elements for the clicked section
+				const content = document.getElementById(`content-${id}`);
+				const icon = document.getElementById(`icon-${id}`);
+
+				// Get all the content elements and icons to close the others
+				const allContents = document.querySelectorAll('.mx-10');
+				const allIcons = document.querySelectorAll('.w-6');
+
+				// Loop through all sections and hide them if they're not the one clicked
+				allContents.forEach(function (item, index) {
+					if (item !== content) {
+						item.classList.add('hidden'); // Hide other content
+						// Change the icon of other sections back to 'up.svg'
+						allIcons[index].src = './image/Icon/down.svg';
+					}
+				});
+
+				// Toggle the clicked content
+				content.classList.toggle('hidden');
+
+				// Change the icon based on whether the content is visible or hidden
+				if (content.classList.contains('hidden')) {
+					icon.src = './image/Icon/down.svg'; // Change to 'up' when content is hidden
+				} else {
+					icon.src = './image/Icon/down.svg'; // Change to 'down' when content is visible
+				}
+			}
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
